@@ -1,0 +1,366 @@
+<div style="text-align:center; margin-top:30px;">
+
+<img src="profile.jpg" style="
+width:200px;
+height:200px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid black;
+">
+
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Page</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f2f2f2;
+}
+
+.menu{
+background:black;
+padding:15px;
+text-align:center;
+}
+
+.menu a{
+color:white;
+font-weight:bold;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+display:inline-block;
+}
+
+.section{
+padding:25px;
+background:white;
+margin:20px;
+border-radius:10px;
+}
+
+h2{
+text-transform:uppercase;
+}
+
+.block{
+background:#eeeeee;
+padding:15px;
+margin:10px 0;
+border-radius:6px;
+}
+
+img{
+width:200px;
+margin:10px;
+border-radius:8px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="menu">
+<a href="#profile">PROFILE</a>
+<a href="#contact">CONTACT</a>
+<a href="#family">FAMILY BACKGROUND</a>
+<a href="#education">EDUCATIONAL BACKGROUND</a>
+<a href="#love">MY LOVED ONES</a>
+<a href="#career">CAREER</a>
+</div>
+
+<div id="profile" class="section">
+<h2>PROFILE</h2>
+
+<div class="block">NAME: NGALANDE GIFT M</div>
+<div class="block">AGE: HIDDEN</div>
+<div class="block">DOB: 23 MARCH 2008</div>
+<div class="block">MARITAL STATUS: SINGLE</div>
+<div class="block">YEAR OF SCHOOL COMPLETION: 18 NOVEMBER 2025</div>
+<div class="block">NRC NUMBER: 5505**/51/1</div>
+
+</div>
+
+<div id="contact" class="section">
+<h2>CONTACT</h2>
+
+<div class="block">WHATSAPP: 0973-183-308</div>
+<div class="block">FACEBOOK: CHILY CHILY</div>
+<div class="block">CALL: 0973-183-308</div>
+<div class="block">EMAIL: giftmgalande@gmail.com</div>
+
+</div>
+
+<div id="family" class="section">
+<h2>FAMILY BACKGROUND</h2>
+
+<p>
+I was born in a humble family where my mother has been the pillar of my upbringing.
+She has supported me in every aspect of life including social, moral, intellectual,
+and spiritual development. Through her guidance and encouragement, I have grown
+with strong values and determination for a better future.
+</p>
+
+<p>
+I have three younger sisters namely Lubomba Ngalande, Prudence Ngalande,
+and Florence Ngalande. Growing up together has taught us unity, respect,
+and the importance of supporting each other as a family.
+</p>
+
+</div>
+
+<div id="education" class="section">
+<h2>EDUCATIONAL BACKGROUND</h2>
+
+<p>
+I completed my secondary education at limezi Boarding School where I
+developed strong academic discipline and leadership qualities. During my
+school years I served as an Academic Captain which allowed me to guide
+and motivate fellow students in their academic performance.
+</p>
+
+<p>
+Through dedication and hard work I also earned an Academic Excellence
+Badge which symbolized my commitment toward education and continuous
+learning. Not only that, i graduated my senior secondary with six points
+</p>
+
+<img src="pic7.jpg">
+<img src="pic8.jpg">
+<img src="pic9.jpg">
+<img src="pic10.jpg">
+
+</div>
+
+<div id="love" class="section">
+<h2>MY LOVED ONE</h2>
+
+<p>
+In my life there is someone very special whom I deeply value love so much and respect her full name is florence Zulu
+I pray that our journey continues with understanding, growth and
+commitment. She is intelligent, supportive and always encourages me to
+pursue my dreams and ambitions.
+</p>
+
+<p>
+She completed Grade 12 with six points at ECL Technical Secondary School
+in Katete and is currently in lusaka. Her dedication to education and her
+determination inspire many of my future goals and aspirations.
+</p>
+
+</div>
+
+<div id="career" class="section">
+<h2>CAREER</h2>
+
+<p>
+My dream career is to become an Electrical and Electronic Engineer.
+Through this profession I aim to contribute to technological and energy
+development within Zambia.
+</p>
+
+<p>
+In the future I intend to establish a company named GMN Technology .
+This company will focus on electrical and electronic innovations that
+can help Zambia achieve higher levels of development in energy,
+technology, and infrastructure.
+</p>
+
+<img src="pic1.jpg">
+<img src="pic2.jpg">
+<img src="pic3.jpg">
+<img src="pic4.jpg">
+<img src="pic5.jpg">
+<img src="pic6.jpg">
+
+</div>
+
+</body>
+</html>
+<div style="text-align:center; margin-top:30px;">
+
+<!-- Video -->
+<video width="320" height="240" controls>
+<source src="profile.mp4" type="video/mp4">
+</video>
+
+<br><br>
+
+<!-- Picture at the bottom -->
+<img src="profile.jpg" width="200" style="border-radius:10px;">
+
+</div>
+<h2>My Profile Video</h2>
+
+<video width="320" height="240" controls>
+  <source src="profile.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<h2>My Picture</h2>
+
+<img src="profile.jpg" width="300" alt="My Profile Picture">
+<h2>Gift AI Chatbot</h2>
+
+<div id="chatbox" style="width:380px;height:320px;border:1px solid #aaa;padding:10px;overflow:auto;background:#f4f4f4;"></div>
+
+<input id="userInput" type="text" placeholder="Ask me anything..." style="width:260px;">
+<button onclick="askBot()">Send</button>
+
+<script>
+
+function askBot(){
+
+let input = document.getElementById("userInput").value.toLowerCase();
+let chatbox = document.getElementById("chatbox");
+
+let reply = "I'm still learning. Please ask another question.";
+
+if(input.includes("hello") || input.includes("hi")){
+reply = "Hello! I am Gift AI. Ask me about school subjects, Gift, Florence Zulu, or general knowledge.";
+}
+
+else if(input.includes("gift")){
+reply = "Gift M. Ngalande is the creator of this website and chatbot. He is interested in Electrical and Electronic Engineering.";
+}
+
+else if(input.includes("florence")){
+reply = "Florence Zulu is someone very important to Gift.";
+}
+
+else if(input.includes("data center")){
+reply = "The data center is located at Magwelo Road, Chipata, Eastern Province, Zambia.";
+}
+
+else if(input.includes("math") || input.includes("solve")){
+try{
+let result = eval(input.replace("solve",""));
+reply = "The answer is: " + result;
+}catch{
+reply = "Please write the math problem clearly, like: solve 5+6*2";
+}
+}
+
+else if(input.includes("physics")){
+reply = "Physics is the study of matter, energy, motion, and forces.";
+}
+
+else if(input.includes("biology")){
+reply = "Biology is the study of living organisms such as plants, animals, and humans.";
+}
+
+else if(input.includes("chemistry")){
+reply = "Chemistry studies substances, elements, compounds, and chemical reactions.";
+}
+
+else if(input.includes("history")){
+reply = "History studies past human events, civilizations, and cultures.";
+}
+
+else if(input.includes("civic")){
+reply = "Civic Education teaches about citizenship, rights, responsibilities, and government.";
+}
+
+else if(input.includes("religious") || input.includes("re")){
+reply = "Religious Education studies religions, beliefs, and moral values.";
+}
+
+else if(input.includes("countries in africa")){
+reply = "Africa has 54 countries.";
+}
+
+else if(input.includes("countries in the world")){
+reply = "There are about 195 countries in the world.";
+}
+
+chatbox.innerHTML += "<p><b>You:</b> "+input+"</p>";
+chatbox.innerHTML += "<p><b>Gift AI:</b> "+reply+"</p>";
+
+document.getElementById("userInput").value = "";
+chatbox.scrollTop = chatbox.scrollHeight;
+
+}
+
+</script>
+<div style="width:400px;margin:auto;font-family:Arial;">
+
+<h2>Gift AI Chatbot</h2>
+
+<div id="chat" style="border:1px solid #ccc;height:300px;overflow:auto;padding:10px;background:#f2f2f2;"></div>
+
+<input id="msg" type="text" placeholder="Ask me a question..." style="width:70%;padding:8px;">
+<button onclick="reply()" style="padding:8px;">Send</button>
+
+</div>
+
+<script>
+
+function reply(){
+
+var input = document.getElementById("msg").value.toLowerCase();
+var chat = document.getElementById("chat");
+var answer = "I don't understand yet. Ask something else.";
+
+if(input.includes("hello") || input.includes("hi")){
+answer = "Hello! I am Gift AI chatbot. Ask me about Gift, Florence Zulu, school subjects, or general knowledge.";
+}
+
+else if(input.includes("who is gift")){
+answer = "Gift M. Ngalande is the creator of this website and chatbot. He is interested in Electrical and Electronic Engineering.";
+}
+
+else if(input.includes("florence")){
+answer = "Florence Zulu is someone very special to Gift.";
+}
+
+else if(input.includes("data center") || input.includes("data centre")){
+answer = "The data center is located on Magwelo Road, Chipata, Eastern Province, Zambia.";
+}
+
+else if(input.includes("countries in africa")){
+answer = "Africa has 54 countries.";
+}
+
+else if(input.includes("countries in the world")){
+answer = "There are about 195 countries in the world.";
+}
+
+else if(input.includes("biology")){
+answer = "Biology is the study of living organisms such as plants, animals and humans.";
+}
+
+else if(input.includes("physics")){
+answer = "Physics is the study of matter, motion, energy and forces.";
+}
+
+else if(input.includes("chemistry")){
+answer = "Chemistry studies substances, elements and chemical reactions.";
+}
+
+else if(input.includes("history")){
+answer = "History is the study of past events and civilizations.";
+}
+
+else if(input.includes("civic")){
+answer = "Civic education teaches about citizenship, rights and responsibilities.";
+}
+
+else if(input.includes("math") || input.includes("solve")){
+answer = "I can help with mathematics questions from Grade 10 to Grade 12.";
+}
+
+chat.innerHTML += "<p><b>You:</b> "+input+"</p>";
+chat.innerHTML += "<p><b>Gift AI:</b> "+answer+"</p>";
+
+document.getElementById("msg").value="";
+chat.scrollTop = chat.scrollHeight;
+
+}
+
+</script>
